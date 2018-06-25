@@ -1,0 +1,16 @@
+
+    <table class="table">
+      <thead class="thead-dark">
+      <tr>
+        <th>Movie Name</th>&nbsp;
+        <th>Year</th>&nbsp;
+        <th>Ratting</th>
+      </tr>
+      </thead>
+      <tr *ngFor="let m of moveList" >
+        <td>{{m.mvName}}</td>&nbsp;&nbsp;
+        <td>{{m.year}}</td>&nbsp;&nbsp;
+        <td>{{m.rate}}</td>
+      </tr>
+    </table>
+
